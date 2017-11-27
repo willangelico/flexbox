@@ -1,0 +1,73 @@
+html, body, .wrapper{
+	min-height: 100%;
+	margin: 0;
+}
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+header{
+	display: flex;	
+	flex-direction: column;
+}
+
+ header .top{
+ 	display: flex;
+ 	flex-direction: row;
+ 	justify-content: space-between;
+ }
+ header .top .logo{
+ 	order: 1;
+ }
+ header .top .acess{
+	display: flex;
+ 	flex-direction: row;
+ 	order: 3;
+ }
+ header .top .search{
+ 	order: 2;
+ }
+
+ nav ul{
+ 	display: flex;
+ 	flex-direction: row;
+ 	justify-content: space-between;
+ 	list-style: none;
+ 	padding: 0;
+ 	margin: 0;
+ }
+
+main .container{
+	display: flex;
+	flex-direction: row;
+	
+}
+
+main .container .item{
+	border: 1px solid black;
+}
+
+main .container aside{
+	flex: 1 0 0;
+}
+main .container section{
+	flex: 3 0 0;
+}
+
+article > div {
+	display: block;
+	font-size: 16px;
+	padding: 10px;
+}
+
+header div, footer{ 
+	min-height: 100px;
+	min-width: 100px;
+	background-color: #acacac;
+	border: 1px solid black;
+ }
+ footer{
+ 	height: 600px;
+ }
+
